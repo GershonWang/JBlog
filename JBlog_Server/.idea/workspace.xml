@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e32db8b-0797-407d-bde7-23f3538d0a6c" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/JBlogSpiderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/dao/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/ArticleProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/ArticleTxtPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/UserPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/UserProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/ArticleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/UserTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/DownloadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/test/java/com/dongpl/JBlogSpiderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.9.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../maven/apache-maven-3.9.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2TPYOq5qJXGRiOBCbzBijc744Ds" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/Jokul/Documents/GitHub/JBlog/JBlog_Server",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="JBlogSpiderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="JBlog_Spider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dongpl.JBlogSpiderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5e32db8b-0797-407d-bde7-23f3538d0a6c" name="更改" comment="" />
+      <created>1689837436298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689837436298</updated>
+      <workItem from="1690946155236" duration="12433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
