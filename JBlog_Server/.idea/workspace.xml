@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e32db8b-0797-407d-bde7-23f3538d0a6c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/JBlogSpiderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/dao/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/ArticleProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/ArticleTxtPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/UserPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/UserProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/ArticleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/UserTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/DownloadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/test/java/com/dongpl/JBlogSpiderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/ScheduledTaskInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/service/DynamicTaskSchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/CronExpressionConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/JBlogSpiderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/JBlogSpiderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/ArticleProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/ArticleProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/ArticleTxtPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/pipeline/ArticleTxtPipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/processor/UserPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/pipeline/UserPipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/ArticleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/ArticleTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/UserTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/task/UserTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/DownloadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/DownloadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBlog_Spider/src/main/java/com/dongpl/utils/IdWorker.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,6 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "build.tools",
+    "spring.configuration.checksum": "9315ee0b872619b6b0168cd6585114a4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689837436298</updated>
-      <workItem from="1690946155236" duration="12433000" />
+      <workItem from="1690946155236" duration="12544000" />
+      <workItem from="1691032164738" duration="12834000" />
     </task>
     <servers />
   </component>

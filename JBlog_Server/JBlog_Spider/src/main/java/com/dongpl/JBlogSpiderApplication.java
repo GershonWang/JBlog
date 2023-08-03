@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import us.codecraft.webmagic.scheduler.RedisScheduler;
-import com.dongpl.utils.IdWorker;
 
 @SpringBootApplication
 @EnableScheduling
@@ -17,11 +16,6 @@ public class JBlogSpiderApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(JBlogSpiderApplication.class, args);
-    }
-
-    @Bean
-    public IdWorker idWorker() {
-        return new IdWorker(1,1);
     }
 
     @Bean

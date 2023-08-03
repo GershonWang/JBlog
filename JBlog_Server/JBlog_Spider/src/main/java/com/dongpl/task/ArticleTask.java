@@ -1,6 +1,6 @@
 package com.dongpl.task;
 
-import com.dongpl.processor.ArticleTxtPipeline;
+import com.dongpl.pipeline.ArticleTxtPipeline;
 import com.dongpl.processor.ArticleProcessor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -24,7 +24,7 @@ public class ArticleTask {
     /**
      * 爬取ai数据
      */
-    @Scheduled(cron="0 * * * * ?")
+    @Scheduled(cron="20 17 11 * * ?")
     public void aiTask(){
         System.out.println("爬取AI文章");
         Spider spider = Spider.create(articleProcessor);

@@ -1,22 +1,26 @@
 package com.dongpl.task;
 
-import com.dongpl.processor.UserPipeline;
+import com.dongpl.pipeline.UserPipeline;
 import com.dongpl.processor.UserProcessor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.scheduler.RedisScheduler;
 
+import javax.annotation.Resource;
+
 @Component
 public class UserTask {
 
-    @Autowired
+    @Resource
     private RedisScheduler redisScheduler;
-    @Autowired
+
+    @Resource
     private UserPipeline userPipeline;
-    @Autowired
+
+    @Resource
     private UserProcessor userProcessor;
+
     /**
      * 爬取用户数据
      */

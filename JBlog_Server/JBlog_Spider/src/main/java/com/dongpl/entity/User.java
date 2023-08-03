@@ -2,17 +2,16 @@ package com.dongpl.entity;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "user")
+@Table
 public class User {
 
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // 使用数据库的自增长机制
+    private Integer id;
 
     private String nickname;
 

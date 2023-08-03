@@ -12,11 +12,7 @@ public class ArticleProcessor implements PageProcessor {
 
     @Override
     public void process(Page page) {
-        List<String> list = page.getHtml().links().all();
-        for (String str : list) {
-            System.out.println(str);
-        }
-        page.addTargetRequests(page.getHtml().links().regex("https://blog.csdn.net/[a-z 0-9-]+/article/details/[0-9]{8}").all());
+        page.addTargetRequests(page.getHtml().links().regex("https://blog.csdn.net/[a-z 0-9_]+/article/details/[0-9]+").all());
         String title= page.getHtml().xpath("//*[@id=\"mainBox\"]/main/div[1]/div[1]/div[1]/div[1]/h1/text()").get();
         String content= page.getHtml().xpath("//*[@id=\"article_content\"]/div[1]").get(); //获取页面需要的内容
         System.out.println("标题：" + title );
