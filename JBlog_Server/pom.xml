@@ -15,6 +15,7 @@
 
     <modules>
         <module>JBlog_Spider</module>
+        <module>JBlog_Webflux</module>
     </modules>
 
 </project>
