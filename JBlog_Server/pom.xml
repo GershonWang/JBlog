@@ -16,6 +16,8 @@
     <modules>
         <module>JBlog_Spider</module>
         <module>JBlog_Webflux</module>
+        <module>JBlog_Common</module>
+        <module>JBlog_Base</module>
     </modules>
 
 </project>
